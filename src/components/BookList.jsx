@@ -22,7 +22,7 @@ class BookList extends Component {
         <div style={{ margin: '1rem', textAlign: 'center' }}>
           <input
             type='text'
-            placeholder='Cerca un libro...'
+            placeholder='Search for a Book...'
             value={this.state.search}
             onChange={this.handleSearch}
             style={{ padding: '0.5rem', width: '50%', fontSize: '1rem' }}

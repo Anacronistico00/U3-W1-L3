@@ -19,6 +19,9 @@ class BookList extends Component {
 
     return (
       <div>
+        <div>
+          <h1 className='text-center my-3 fw-bolder'>Welcome to My Library!</h1>
+        </div>
         <div style={{ margin: '1rem', textAlign: 'center' }}>
           <input
             type='text'
